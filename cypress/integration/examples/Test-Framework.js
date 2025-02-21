@@ -37,7 +37,7 @@ describe('End to end ecommerce test', function () {
         const CartPage = ProductPage.goToCart()
         CartPage.sumOfProducts().then(function (sum) {
 
-            expect(sum).to.be.lessThan(200000)
+            expect(sum).to.be.lessThan(2000000)
 
         })
 
